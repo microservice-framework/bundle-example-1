@@ -1,0 +1,25 @@
+{
+  "name": "bundle-example-1",
+  "version": "1.0.0",
+  "mongo_url": "mongodb://localhost:27017/",
+  "mongo_options": "",
+  "mongo_prefix": "bundleexample1",
+  "router_secret": "a55c05d2ba33cef033df9c63b63c28bd52e03ab419393e21",
+  "router_url": "http://localhost:3000",
+  "router_proxy_url": "http://localhost:3100",
+  "services": {
+    "microservice-router": {
+      "source": "@microservice-framework/microservice-router",
+      "settings": {
+        "secure_key": "a55c05d2ba33cef033df9c63b63c28bd52e03ab419393e21"
+      }
+    },
+    "example-3": {
+      "source": "github:microservice-framework/example-3",
+      "settings": {
+        "port": 15002,
+        "secure_key": "524b8c2be918d408d8d9c89a6d5ce7e85e25e0efa412d8aa"
+      }
+    }
+  }
+}
