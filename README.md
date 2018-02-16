@@ -51,5 +51,7 @@ API example with 1 service with secure key authentification only (no oAuth. Exam
   ```
 
 - open [API explorer](http://localhost:3100) via browser
+![index](https://github.com/microservice-framework/bundle-example-1/raw/master/images/index.png)
 - enter `a55c05d2ba33cef033df9c63b63c28bd52e03ab419393e21` as a access Token
+![inside](https://raw.githubusercontent.com/microservice-framework/bundle-example-1/master/images/inside.png)
 - now you can perform basic CRUD operations via API explorer
